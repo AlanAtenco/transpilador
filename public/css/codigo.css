@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4ecca3; /* Verde menta */
+    background-image: linear-gradient(125deg, #4ecca3 0%, #1a2a6c 100%);
+    color: #e0e0e0; /* Texto gris claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #f8f1f1; /* Blanco suave */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 400px;
+    height: 350px;
+    resize: none;
+    border: 2px solid #4ecca3; /* Verde menta */
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff; /* Texto blanco */
+    background-color: #0f3460; /* Azul oscuro */
+    box-shadow: 0 0 15px rgba(78, 204, 163, 0.5); /* Resplandor verde */
+    outline: none;
+}
+
+textarea:focus {
+    box-shadow: 0 0 20px rgba(78, 204, 163, 0.8);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ecca3; /* Verde menta */
+    background-image: linear-gradient(315deg, #4ecca3 0%, #1a2a6c 100%);
+    color: #ffffff; /* Blanco */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #16213e; /* Azul más oscuro */
+    color: #4ecca3; /* Verde menta para contraste */
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(78, 204, 163, 0.8);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(78, 204, 163, 0.8);
+}

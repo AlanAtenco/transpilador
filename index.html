@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor JavaScript a PSInt</title>
+    <link rel="stylesheet" href="./public/css/codigo.css">
+</head>
+<body>
+    <h1>Convertidor de JavaScript a PSInt</h1>
+    
+    <div class="container">
+        
+        <!-- Input para código JavaScript -->
+        <textarea id="inputJS" placeholder="Introduce tu código JavaScript aquí"></textarea>
+
+        <!-- Botones de acción -->
+        <div class="buttons">
+            <button onclick="limpiar()">Limpiar</button>
+            <button onclick="generar()">Generar</button>
+        </div>
+
+        <!-- Output para código PSInt -->
+        <textarea id="outputPSInt" placeholder="Código en PSInt" readonly></textarea>
+    </div>
+    <script src="public/js/codigo.js"></script>
+</body>
+</html>
